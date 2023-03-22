@@ -16,4 +16,8 @@ o https://jsonplaceholder.typicode.com/users
 ● Detalhes de um usuário:
 o https://jsonplaceholder.typicode.com/users/[ID]
 
-
+Desenvolvi o projeto utilizando Javascript com CSS e HTML.
+- O Index está a estrutura em HTML.
+- O Sytle esta o estilo em CSS.
+- O script está todo a estrutura de solicitação da API RESTful da JSONPlaceholder
+- O projeto está responsivo no modo que possa utilizar em dispositivos moveis.
