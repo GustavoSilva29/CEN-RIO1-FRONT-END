@@ -55,10 +55,15 @@ input[type="text"] {
 	margin-bottom: 10px; /* adiciona um espaço de 10 pixels abaixo do input */
   }
 button {
-	font-size: 30px;
-	width: 35%;
-	margin-top: 10px; /* adiciona um espaço de 10 pixels acima do botão */
-  }  
+  
+font-size: 30px;
+width: 35%;
+margin-top: 10px; /* adiciona um espaço de 10 pixels acima do botão */
+  border-radius: 15px; /* adiciona bordas arredondadas com raio de 15 pixels */
+  } 
+button:hover {
+    background-color: #0bd600; /* muda a cor de fundo para verde ao passar o mouse sobre o botão */
+}  
 .section {
 	margin-bottom: 40px;
 	font-size: 14px;
