@@ -1,0 +1,36 @@
+<head>
+	<meta charset="UTF-8">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<title>Exemplo de Consumo de API com JavaScript</title> 
+</head>
+<body>
+	<div class="section">
+		<h1>Posts</h1>
+		<ul id="posts-list"></ul>
+	</div>
+	
+	<div class="section">
+		<h1>Comentários do Post</h1><br>
+		<input type="text" id="post-id" placeholder="Digite o ID do post">
+		<button type="button" id="btn-comments">Buscar Comentários</button>
+		<ul id="comments-list"></ul>
+	</div>
+	
+	<div class="section">
+		<h1>Usuários</h1>
+		<ul id="users-list"></ul>
+	</div>
+	
+	<div class="section">
+		<h1>Detalhes do Usuário</h1><br>
+		<input type="text" id="user-id" placeholder="Digite o ID do usuário">
+		<button type="button" id="btn-user-details">Buscar Detalhes</button>
+		<div id="user-details"></div>
+	</div>
+
+<script src="script.js"></script>
+</body>
+
+<footer>Criado por Gustavo Aparecido da Silva</footer>
+</html>
