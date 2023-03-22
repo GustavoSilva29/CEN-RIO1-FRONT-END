@@ -1,7 +1,10 @@
 # CENARIO 1 -FRONT-END
 A equipe recebeu uma demanda para desenvolver um front-end para uma API RESTful. No cenário proposto, a interface deve exibir posts de um blog e, ao clicar em um post, os comentários associados.
 Sou responsável pela demanda e minha tarefa é projetar uma interface para atender as
-necessidades. 
+necessidades.
+
+URL DO PROJETO: https://gustavosilva29.github.io/CEN-RIO1-FRONT-END/Projeto/index.html
+
 Os seguintes serviços estão disponíveis:
 
 ● Listagem de posts:
