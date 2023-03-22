@@ -1,107 +1,114 @@
 /* Define a fonte padrão e remove a margem e padding da página */
 body {
-    background-image: url('assets/img/background.png');
-    background-size: 100% 100%;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+	background-image: url('assets/img/background.png');
+	background-size: 100% 100%;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
 }
+
 /* Define o estilo do cabeçalho */
 header {
-    background-color: #010101;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-	
+	background-color: #010101;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
 }
+
 /* Define o estilo dos títulos h1 */
 h1 {
 	background: linear-gradient(to right, #ceffb6, #a5df90);
-	font-size: 28px;
-	text-align: center;
-	margin: 0;
 	border-bottom: 2px solid #ffffff;
-	color: #ffffff;
-	padding: 10px;
 	box-shadow: 0px 0px 10px #000000;
-  }
+	color: #ffffff;
+	font-size: 28px;
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+}
+
 /*  Define o estilo da seção principal */
 main {
-    margin: 10px;
-	
+	margin: 10px;
 }
 
 /* Define o estilo dos títulos h2 */
 h2 {
-    margin-bottom: 100px;
+	margin-bottom: 100px;
 }
+
 /* Define o estilo das listas */
 ul {
-	
-    list-style: none;
-    margin: 0;
-    padding: 10;
 	font-size: 14px;
+	list-style: none;
+	margin: 0;
+	padding: 10;
 }
+
 /* Define o estilo dos itens de lista */
 li {
-    margin-bottom: 8px;
 	font-size: 20px;
+	margin-bottom: 8px;
 }
+
 /* Define o estilo das seções */
 input[type="text"] {
 	font-size: 30px;
-	width: 35%;
 	margin-bottom: 10px; /* adiciona um espaço de 10 pixels abaixo do input */
-  }
-button {
-  
-font-size: 30px;
-width: 35%;
-margin-top: 10px; /* adiciona um espaço de 10 pixels acima do botão */
-  border-radius: 15px; /* adiciona bordas arredondadas com raio de 15 pixels */
-  } 
-button:hover {
-    background-color: #0bd600; /* muda a cor de fundo para verde ao passar o mouse sobre o botão */
-}  
-.section {
-	margin-bottom: 40px;
-	font-size: 14px;
+	width: 35%;
 }
 
-/*Define o estilo do rodapé  */
+button {
+	border-radius: 15px; /* adiciona bordas arredondadas com raio de 15 pixels */
+	font-size: 30px;
+	margin-top: 10px; /* adiciona um espaço de 10 pixels acima do botão */
+	width: 35%;
+}
+
+button:hover {
+	background-color: #0bd600; /* muda a cor de fundo para verde ao passar o mouse sobre o botão */
+}
+
+.section {
+	font-size: 14px;
+	margin-bottom: 40px;
+}
+
+/* Define o estilo do rodapé  */
 footer {
 	background: linear-gradient(to right, #ceffb6, #a5df90);
-	font-size: 28px;
-	text-align: center;
-	margin: 0;
 	border-bottom: 2px solid #ffffff;
-	color: #ffffff;
-	padding: 10px;
 	box-shadow: 0px 0px 10px #000000;
-  }
+	color: #ffffff;
+	font-size: 28px;
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+}
 
-/* Define estilos para telas menores */
+/* Define estilos para telas menores para deixar responsivo */
 @media screen and (max-width: 300px) {
 	/* Estilos para tela menor que 480px */
 	input[type="text"], button {
-	  font-size: 100px;
-	  width: 80%;
-	  margin: 10px auto;
+		font-size: 100px;
+		margin: 10px auto;
+		width: 80%;
 	}
-    /* Define a largura máxima para que os elementos não se estiquem */
-    body {
-        max-width: 600px;
-        margin: 0 auto;
-    }
-    /* Reduz a margem para economizar espaço */
-    main {
-        margin: 5px;
-    }
-    /* Reduz o tamanho da fonte para se ajustar a telas menores */
-    h1, h2 {
-        font-size: 20px;
-    }
-	
+
+	/* Define a largura máxima para que os elementos não se estiquem */
+	body {
+		max-width: 600px;
+		margin: 0 auto;
+	}
+
+	/* Reduz a margem para economizar espaço */
+	main {
+		margin: 5px;
+	}
+
+	/* Reduz o tamanho da fonte para se ajustar a telas menores deixando responsivo*/
+	h1, h2 {
+		font-size: 20px;
+	}
 }
-	
+
